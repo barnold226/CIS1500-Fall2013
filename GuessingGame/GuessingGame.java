@@ -7,11 +7,11 @@ public class GuessingGame
 		int mySecretNumber = 42;
 		int guess;
 				
-		Scanner bannana = new Scanner(System.in);
+		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("Guess my secret number!");
 		
-		guess = Integer.parseInt( bannana.nextLine() );
+		guess = Integer.parseInt( keyboard.nextLine() );
 		
 		if ( guess < mySecretNumber )
 		{
@@ -29,7 +29,7 @@ public class GuessingGame
 		
 		System.out.println("Guess my secret number!");
 		
-		guess = Integer.parseInt( bannana.nextLine() );
+		guess = Integer.parseInt( keyboard.nextLine() );
 		
 		if ( guess < mySecretNumber )
 		{
@@ -47,7 +47,7 @@ public class GuessingGame
 		
 		System.out.println("Guess my secret number!");
 		
-		guess = Integer.parseInt( bannana.nextLine() );
+		guess = Integer.parseInt( keyboard.nextLine() );
 		
 		if ( guess < mySecretNumber )
 		{
@@ -65,7 +65,7 @@ public class GuessingGame
 		
 		System.out.println("Guess my secret number!");
 		
-		guess = Integer.parseInt( bannana.nextLine() );
+		guess = Integer.parseInt( keyboard.nextLine() );
 		
 		if ( guess < mySecretNumber )
 		{
@@ -83,7 +83,7 @@ public class GuessingGame
 		
 		System.out.println("Guess my secret number!");
 		
-		guess = Integer.parseInt( bannana.nextLine() );
+		guess = Integer.parseInt( keyboard.nextLine() );
 		
 		if ( guess < mySecretNumber )
 		{

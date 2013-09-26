@@ -1,3 +1,5 @@
+// Eric's version - yours might be different, that is good!
+
 import java.util.Scanner;
 
 public class MazeGameLoop
